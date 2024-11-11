@@ -1,0 +1,192 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Veri Temizleme",
+    "section": "",
+    "text": "Önsöz\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Önsöz"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "\n1  Giriş\n",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giriş</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "\n2  Özet\n",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Özet</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html",
+    "href": "veri_temizleme.html",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "",
+    "text": "3.1 Giriş",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#giriş",
+    "href": "veri_temizleme.html#giriş",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "",
+    "text": "3.1.1 1. Veri Temizliğinin Önemi\nAmaç: Veri temizliğinin neden analiz süreçlerinde kritik bir adım olduğunu detaylandırın.Özelleşmiş Bilgi: Kirli verilerin, analiz sonuçlarını nasıl olumsuz etkileyebileceği; eksik, hatalı veya tutarsız verilerin çıkarım hatalarına ve yanlış kararlara yol açma riskleri.R Markdown Önerisi: Kısa bir açıklamanın ardından, bu bölümün önemini vurgulayan birkaç görsel veya örnek ekleyin. Örneğin, temizlenmemiş veri ile temizlenmiş veri arasındaki farkları gösteren küçük bir örnek tablo oluşturabilirsiniz.\n\n3.1.2 2. Veri Temizleme Tekniklerine Genel Bakış\n\n3.1.3 1. Veri Temizliğinin Önemi\nAmaç: Veri temizliğinin neden analiz süreçlerinde kritik bir adım olduğunu detaylandırın.Özelleşmiş Bilgi: Kirli verilerin, analiz sonuçlarını nasıl olumsuz etkileyebileceği; eksik, hatalı veya tutarsız verilerin çıkarım hatalarına ve yanlış kararlara yol açma riskleri.R Markdown Önerisi: Kısa bir açıklamanın ardından, bu bölümün önemini vurgulayan birkaç görsel veya örnek ekleyin. Örneğin, temizlenmemiş veri ile temizlenmiş veri arasındaki farkları gösteren küçük bir örnek tablo oluşturabilirsiniz.\n\n3.1.4 2. Veri Temizleme Tekniklerine Genel Bakış\nAmaç: Belirtilen tekniklerin ne işe yaradığı ve neden bu dosyada yer aldıkları hakkında kısa bir tanıtım.Özelleşmiş Bilgi: Her bir tekniğin veri seti üzerinde nasıl bir etki sağladığını açıklayan kısa tanımlar (filtreleme, çoğaltma giderme, tamamlama vb.).R Markdown Önerisi: Her tekniği kısa bir açıklamayla tanıtan bir liste oluşturun. Bu listeye tıklanabilir bağlantılar ekleyerek, okuyucunun ilgili bölüme kolayca erişmesini sağlayabilirsiniz.\n\n3.1.5 3. Çalışmanın Kapsamı ve Hedefi\nAmaç: Bu çalışma dosyasının okuyucuya sağlayacağı faydaları açıklayın.Özelleşmiş Bilgi: Dosyanın veri temizleme sürecindeki adımları öğrenmek isteyenler için bir rehber niteliğinde olduğu, özellikle R’de veri temizleme tekniklerine yönelik örnekler içerdiği belirtilebilir.R Markdown Önerisi: Çalışmanın hangi seviyedeki kullanıcıya yönelik olduğunu vurgulayın (örneğin, başlangıç seviyesinde veri analistleri). Bu bölüme hedef kitlenizi belirtmek için ayrı bir paragraf ekleyebilirsiniz.\n\n3.1.6 4. Veri Temizliğinde Karşılaşılan Yaygın Sorunlar\nAmaç: Veri temizliği sırasında ortaya çıkan yaygın sorunlara dikkat çekmek.Özelleşmiş Bilgi: Eksik veriler, hatalı veri girişleri, mükerrer kayıtlar ve aykırı değerler gibi sorunları tanımlayın.R Markdown Önerisi: Bu bölümde her bir soruna kısa açıklamalarla yer verin. Sorunları görselleştirmek adına, basit bir örnek veri seti oluşturabilir ve sorunları örnek üzerinden göstererek okuyucuya daha net bir anlayış sunabilirsiniz.\n\n3.1.7 5. Bu Dosyada Kullanılan Araçlar ve R Paketleri\nAmaç: Çalışmada hangi R paketlerinin kullanılacağını tanıtmak ve kısa açıklamalarını yapmak.Özelleşmiş Bilgi: dplyr, mice, skimr, assertive gibi paketlerin kullanımı hakkında kısa bilgiler.R Markdown Önerisi: Her paketin yanında, ne işe yaradığını ve veri temizleme sürecindeki rolünü açıklayan bir liste ekleyin. Bu paketlerin kurulumunu sağlayan kodu (örneğin, install.packages(\"dplyr\")) da ekleyebilirsiniz.\n\n3.1.8 6. Çalışma Dosyasının Yapısı Hakkında Bilgi\nAmaç: Dosyanın bölümlerini tanıtmak ve okuyucuya yol gösterici bir içerik tablosu sunmak.\nÖzelleşmiş Bilgi: Giriş, veri filtreleme, veri çoğaltma giderme vb. ana başlıkların kısa açıklamalarını yaparak, dosyanın genel yapısı hakkında bilgi verin.\nR Markdown Önerisi: İçindekiler tablosu (toc) ekleyerek her başlığa tıklanabilir bağlantılar sunabilirsiniz.\n\n3.1.9 7. İlerleyen Bölümlere Kısa Bir Giriş\nAmaç: Çalışmada ilerleyen başlıklara dair kısa bir ön bilgi verin.\nÖzelleşmiş Bilgi: Her bir veri temizleme tekniğinin ne tür problemleri çözmek için kullanıldığını kısaca tanımlayın.\nR Markdown Önerisi: Kısa tanıtımlar ile birlikte, okuyucunun ilgisini çekecek bir anlatım stili kullanabilirsiniz. Her başlık hakkında kısa bir özet sunarak, okuyucunun ilgili teknik hakkında daha fazla bilgi edinmesini sağlayabilirsiniz.\nBelirtilen tekniklerin ne işe yaradığı ve neden bu dosyada yer aldıkları hakkında kısa bir tanıtım.\nÖzelleşmiş Bilgi: Her bir tekniğin veri seti üzerinde nasıl bir etki sağladığını açıklayan kısa tanımlar (filtreleme, çoğaltma giderme, tamamlama vb.).\nR Markdown Önerisi: Her tekniği kısa bir açıklamayla tanıtan bir liste oluşturun. Bu listeye tıklanabilir bağlantılar ekleyerek, okuyucunun ilgili bölüme kolayca erişmesini sağlayabilirsiniz.\n\n3.1.10 3. Çalışmanın Kapsamı ve Hedefi\nAmaç: Bu çalışma dosyasının okuyucuya sağlayacağı faydaları açıklayın.\nÖzelleşmiş Bilgi: Dosyanın veri temizleme sürecindeki adımları öğrenmek isteyenler için bir rehber niteliğinde olduğu, özellikle R’de veri temizleme tekniklerine yönelik örnekler içerdiği belirtilebilir.\nR Markdown Önerisi: Çalışmanın hangi seviyedeki kullanıcıya yönelik olduğunu vurgulayın (örneğin, başlangıç seviyesinde veri analistleri). Bu bölüme hedef kitlenizi belirtmek için ayrı bir paragraf ekleyebilirsiniz.\n\n3.1.11 4. Veri Temizliğinde Karşılaşılan Yaygın Sorunlar\nAmaç: Veri temizliği sırasında ortaya çıkan yaygın sorunlara dikkat çekmek.\nÖzelleşmiş Bilgi: Eksik veriler, hatalı veri girişleri, mükerrer kayıtlar ve aykırı değerler gibi sorunları tanımlayın.\nR Markdown Önerisi: Bu bölümde her bir soruna kısa açıklamalarla yer verin. Sorunları görselleştirmek adına, basit bir örnek veri seti oluşturabilir ve sorunları örnek üzerinden göstererek okuyucuya daha net bir anlayış sunabilirsiniz.\n\n3.1.12 5. Bu Dosyada Kullanılan Araçlar ve R Paketleri\nAmaç: Çalışmada hangi R paketlerinin kullanılacağını tanıtmak ve kısa açıklamalarını yapmak.\nÖzelleşmiş Bilgi: dplyr, mice, skimr, assertive gibi paketlerin kullanımı hakkında kısa bilgiler.\nR Markdown Önerisi: Her paketin yanında, ne işe yaradığını ve veri temizleme sürecindeki rolünü açıklayan bir liste ekleyin. Bu paketlerin kurulumunu sağlayan kodu (örneğin, install.packages(\"dplyr\")) da ekleyebilirsiniz.\n\n3.1.13 6. Çalışma Dosyasının Yapısı Hakkında Bilgi\nAmaç: Dosyanın bölümlerini tanıtmak ve okuyucuya yol gösterici bir içerik tablosu sunmak.\nÖzelleşmiş Bilgi: Giriş, veri filtreleme, veri çoğaltma giderme vb. ana başlıkların kısa açıklamalarını yaparak, dosyanın genel yapısı hakkında bilgi verin.\nR Markdown Önerisi: İçindekiler tablosu (toc) ekleyerek her başlığa tıklanabilir bağlantılar sunabilirsiniz.\n\n3.1.14 7. İlerleyen Bölümlere Kısa Bir Giriş\nAmaç: Çalışmada ilerleyen başlıklara dair kısa bir ön bilgi verin.\nÖzelleşmiş Bilgi: Her bir veri temizleme tekniğinin ne tür problemleri çözmek için kullanıldığını kısaca tanımlayın.\nR Markdown Önerisi: Kısa tanıtımlar ile birlikte, okuyucunun ilgisini çekecek bir anlatım stili kullanabilirsiniz. Her başlık hakkında kısa bir özet sunarak, okuyucunun ilgili teknik hakkında daha fazla bilgi edinmesini sağlayabilirsiniz.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-filtreleme",
+    "href": "veri_temizleme.html#veri-filtreleme",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.2 Veri Filtreleme",
+    "text": "3.2 Veri Filtreleme\nTanım ve amacı.\nR’de veri filtreleme için fonksiyonlar (örneğin, dplyr::filter()).\nÖrnek: Bir veri setinden gereksiz verilerin kaldırılması.\n\nlibrary(dplyr)\nfiltered_data &lt;- data %&gt;% filter(column_name == \"some_value\")",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-çoğaltma-giderme-data-deduplication",
+    "href": "veri_temizleme.html#veri-çoğaltma-giderme-data-deduplication",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.3 Veri Çoğaltma Giderme (Data Deduplication)",
+    "text": "3.3 Veri Çoğaltma Giderme (Data Deduplication)\nTanım ve önemi.\nR’de yinelenen verileri belirleme teknikleri (örneğin, duplicated(), dplyr paketinde distinct()).\nÖrnek: Bir veri setinde mükerrer kayıtların kaldırılması.\n\nunique_data &lt;- data %&gt;% distinct()",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-tamamlama-data-imputation",
+    "href": "veri_temizleme.html#veri-tamamlama-data-imputation",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.4 Veri Tamamlama (Data Imputation)",
+    "text": "3.4 Veri Tamamlama (Data Imputation)\nTanım ve eksik verileri ele alma yöntemleri.\nR’de tamamlama için fonksiyonlar (örneğin, na.omit(), çoklu tamamlama için mice paketi).\nÖrnek: Bir veri setindeki eksik değerlerin tamamlanması.\n\nlibrary(mice)\nimputed_data &lt;- mice(data, m=5, maxit=50, meth='pmm', seed=500)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-standardizasyonu",
+    "href": "veri_temizleme.html#veri-standardizasyonu",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.5 Veri Standardizasyonu",
+    "text": "3.5 Veri Standardizasyonu\nVeri standardizasyonunun açıklaması.\nDeğişkenlerin standart hale getirilmesi için teknikler (örneğin, scale() fonksiyonu).\nÖrnek: Karşılaştırma için verilerin ortak bir formata dönüştürülmesi.\n\nstandardized_data &lt;- scale(data$variable_name)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-dönüştürme-data-transformation",
+    "href": "veri_temizleme.html#veri-dönüştürme-data-transformation",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.6 Veri Dönüştürme (Data Transformation)",
+    "text": "3.6 Veri Dönüştürme (Data Transformation)\nVeri dönüştürmenin açıklaması ve faydaları.\nR’de veri dönüştürme yöntemleri (örneğin, mutate() fonksiyonu).\nÖrnek: Analiz için yeni değişkenlerin oluşturulması.\n\ntransformed_data &lt;- data %&gt;% mutate(new_column = old_column * 2)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#aykırı-değer-tespiti-outlier-detection",
+    "href": "veri_temizleme.html#aykırı-değer-tespiti-outlier-detection",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.7 Aykırı Değer Tespiti (Outlier Detection)",
+    "text": "3.7 Aykırı Değer Tespiti (Outlier Detection)\nTanım ve önemi.\nR’de aykırı değerleri belirleme teknikleri (örneğin, boxplot(), IQR()).\nÖrnek: Bir veri setinde aykırı değerlerin tespit edilmesi ve işlenmesi.\n\nboxplot(data$variable_name)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-doğrulama-data-validation",
+    "href": "veri_temizleme.html#veri-doğrulama-data-validation",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.8 Veri Doğrulama (Data Validation)",
+    "text": "3.8 Veri Doğrulama (Data Validation)\nVeri doğrulamanın amacı.\nR’de veri tutarlılığını kontrol etme yöntemleri (örneğin, assertive paketi ile doğrulamalar).\nÖrnek: Verilerin doğruluğunu sağlamak için veri girişlerinin doğrulanması.\n\nlibrary(assertive)\nassert_all_are_numeric(data$variable_name)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-kodlama-data-encoding",
+    "href": "veri_temizleme.html#veri-kodlama-data-encoding",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.9 Veri Kodlama (Data Encoding)",
+    "text": "3.9 Veri Kodlama (Data Encoding)\nVeri kodlamanın açıklaması ve gerekliliği.\nR’de kodlama teknikleri (örneğin, kategorik değişkenler için factor()).\nÖrnek: Kategorik verilerin sayısal değerlere dönüştürülmesi.\n\ndata$category &lt;- as.factor(data$category)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-birleştirme-data-aggregation",
+    "href": "veri_temizleme.html#veri-birleştirme-data-aggregation",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.10 Veri Birleştirme (Data Aggregation)",
+    "text": "3.10 Veri Birleştirme (Data Aggregation)\nTanım ve veri birleştirmenin kullanıldığı durumlar.\nR’de veri birleştirme teknikleri (örneğin, group_by() ve summarize() fonksiyonları).\nÖrnek: Verileri kategoriye göre gruplayarak özet istatistiklerin elde edilmesi.\n\naggregated_data &lt;- data %&gt;% group_by(category) %&gt;% summarize(mean_value = mean(value))",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-örnekleme-data-sampling",
+    "href": "veri_temizleme.html#veri-örnekleme-data-sampling",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.11 Veri Örnekleme (Data Sampling)",
+    "text": "3.11 Veri Örnekleme (Data Sampling)\nAnaliz için örnekleme önemi.\nR’de veri örnekleme yöntemleri (örneğin, sample(), sample_n() fonksiyonu).\nÖrnek: Büyük bir veri setinden temsilci bir alt küme çekilmesi.\n\nsampled_data &lt;- data %&gt;% sample_n(100)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-temizleme-data-cleansing",
+    "href": "veri_temizleme.html#veri-temizleme-data-cleansing",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.12 Veri Temizleme (Data Cleansing)",
+    "text": "3.12 Veri Temizleme (Data Cleansing)\nVeri temizleme işleminin kapsamlı bir süreç olarak genel görünümü.\nVeriyi temizlemek için birden fazla tekniğin birlikte kullanılması.\nÖrnek: R’de filtreleme, yinelenenleri giderme ve tamamlama işlemlerinin bir arada kullanılması.\n\ncleaned_data &lt;- data %&gt;% filter(!is.na(value)) %&gt;% distinct()",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#veri-profilleme-data-profiling",
+    "href": "veri_temizleme.html#veri-profilleme-data-profiling",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.13 Veri Profilleme (Data Profiling)",
+    "text": "3.13 Veri Profilleme (Data Profiling)\nVeri profillemenin amacı ve veri setinin yapısını anlamak için yapılan analizler.\nR’de veri profilleme araçları (örneğin, summary(), str(), skimr paketi).\nÖrnek: Veri temizlemeden önce veri özelliklerinin analiz edilmesi.\n\nlibrary(skimr)\nskim(data)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "veri_temizleme.html#sonuç",
+    "href": "veri_temizleme.html#sonuç",
+    "title": "\n3  Veri Temizleme\n",
+    "section": "\n3.14 Sonuç",
+    "text": "3.14 Sonuç\nVeri temizleme tekniklerinin analizin başarısına olan etkisi büyüktür. Bu dosyada her teknik için örnekler verilmiştir ve bu tekniklerin kullanımıyla veri kalitesi artırılabilir.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Veri Temizleme</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referanslar",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Referanslar"
+    ]
+  }
+]

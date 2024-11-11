@@ -1,0 +1,41 @@
+project:
+  type: book
+  output-dir: docs/
+
+book:
+  title: "Veri Temizleme"
+  author: "Servet Çetin"
+  date: "07.11.2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - veri_temizleme.qmd
+    - references.qmd
+  downloads: [pdf, docx, epub]
+  sharing: [twitter, linkedin]
+  cover-image: cover.png
+
+bibliography: references.bib
+
+format:
+  html:
+    code-copy: true
+    code-link: true
+    code-fold: false
+    code-tools: false
+    theme:
+      light: cosmo
+      dark: darkly
+    cover-image: cover.png
+  pdf:
+    documentclass: scrreprt
+    toc-title: İçindekiler
+    cover-image: cover.png
+  docx:
+    toc: true
+    toc-title: İçindekiler
+    number-sections: true
+
+editor: visual
+

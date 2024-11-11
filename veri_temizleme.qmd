@@ -1,0 +1,263 @@
+# Veri Temizleme
+
+## Giriş
+
+### 1. Veri Temizliğinin Önemi
+
+**Amaç:** Veri temizliğinin neden analiz süreçlerinde kritik bir adım olduğunu detaylandırın.\
+**Özelleşmiş Bilgi:** Kirli verilerin, analiz sonuçlarını nasıl olumsuz etkileyebileceği; eksik, hatalı veya tutarsız verilerin çıkarım hatalarına ve yanlış kararlara yol açma riskleri.\
+**R Markdown Önerisi:** Kısa bir açıklamanın ardından, bu bölümün önemini vurgulayan birkaç görsel veya örnek ekleyin. Örneğin, temizlenmemiş veri ile temizlenmiş veri arasındaki farkları gösteren küçük bir örnek tablo oluşturabilirsiniz.
+
+### 2. Veri Temizleme Tekniklerine Genel Bakış
+
+### 1. Veri Temizliğinin Önemi
+
+**Amaç:** Veri temizliğinin neden analiz süreçlerinde kritik bir adım olduğunu detaylandırın.\
+**Özelleşmiş Bilgi:** Kirli verilerin, analiz sonuçlarını nasıl olumsuz etkileyebileceği; eksik, hatalı veya tutarsız verilerin çıkarım hatalarına ve yanlış kararlara yol açma riskleri.\
+**R Markdown Önerisi:** Kısa bir açıklamanın ardından, bu bölümün önemini vurgulayan birkaç görsel veya örnek ekleyin. Örneğin, temizlenmemiş veri ile temizlenmiş veri arasındaki farkları gösteren küçük bir örnek tablo oluşturabilirsiniz.
+
+### 2. Veri Temizleme Tekniklerine Genel Bakış
+
+**Amaç:** Belirtilen tekniklerin ne işe yaradığı ve neden bu dosyada yer aldıkları hakkında kısa bir tanıtım.\
+**Özelleşmiş Bilgi:** Her bir tekniğin veri seti üzerinde nasıl bir etki sağladığını açıklayan kısa tanımlar (filtreleme, çoğaltma giderme, tamamlama vb.).\
+**R Markdown Önerisi:** Her tekniği kısa bir açıklamayla tanıtan bir liste oluşturun. Bu listeye tıklanabilir bağlantılar ekleyerek, okuyucunun ilgili bölüme kolayca erişmesini sağlayabilirsiniz.
+
+### 3. Çalışmanın Kapsamı ve Hedefi
+
+**Amaç:** Bu çalışma dosyasının okuyucuya sağlayacağı faydaları açıklayın.\
+**Özelleşmiş Bilgi:** Dosyanın veri temizleme sürecindeki adımları öğrenmek isteyenler için bir rehber niteliğinde olduğu, özellikle R'de veri temizleme tekniklerine yönelik örnekler içerdiği belirtilebilir.\
+**R Markdown Önerisi:** Çalışmanın hangi seviyedeki kullanıcıya yönelik olduğunu vurgulayın (örneğin, başlangıç seviyesinde veri analistleri). Bu bölüme hedef kitlenizi belirtmek için ayrı bir paragraf ekleyebilirsiniz.
+
+### 4. Veri Temizliğinde Karşılaşılan Yaygın Sorunlar
+
+**Amaç:** Veri temizliği sırasında ortaya çıkan yaygın sorunlara dikkat çekmek.\
+**Özelleşmiş Bilgi:** Eksik veriler, hatalı veri girişleri, mükerrer kayıtlar ve aykırı değerler gibi sorunları tanımlayın.\
+**R Markdown Önerisi:** Bu bölümde her bir soruna kısa açıklamalarla yer verin. Sorunları görselleştirmek adına, basit bir örnek veri seti oluşturabilir ve sorunları örnek üzerinden göstererek okuyucuya daha net bir anlayış sunabilirsiniz.
+
+### 5. Bu Dosyada Kullanılan Araçlar ve R Paketleri
+
+**Amaç:** Çalışmada hangi R paketlerinin kullanılacağını tanıtmak ve kısa açıklamalarını yapmak.\
+**Özelleşmiş Bilgi:** `dplyr`, `mice`, `skimr`, `assertive` gibi paketlerin kullanımı hakkında kısa bilgiler.\
+**R Markdown Önerisi:** Her paketin yanında, ne işe yaradığını ve veri temizleme sürecindeki rolünü açıklayan bir liste ekleyin. Bu paketlerin kurulumunu sağlayan kodu (örneğin, `install.packages("dplyr")`) da ekleyebilirsiniz.
+
+### 6. Çalışma Dosyasının Yapısı Hakkında Bilgi
+
+Amaç: Dosyanın bölümlerini tanıtmak ve okuyucuya yol gösterici bir içerik tablosu sunmak.\
+Özelleşmiş Bilgi: Giriş, veri filtreleme, veri çoğaltma giderme vb. ana başlıkların kısa açıklamalarını yaparak, dosyanın genel yapısı hakkında bilgi verin.\
+R Markdown Önerisi: İçindekiler tablosu (`toc`) ekleyerek her başlığa tıklanabilir bağlantılar sunabilirsiniz.
+
+### 7. İlerleyen Bölümlere Kısa Bir Giriş
+
+Amaç: Çalışmada ilerleyen başlıklara dair kısa bir ön bilgi verin.\
+Özelleşmiş Bilgi: Her bir veri temizleme tekniğinin ne tür problemleri çözmek için kullanıldığını kısaca tanımlayın.\
+R Markdown Önerisi: Kısa tanıtımlar ile birlikte, okuyucunun ilgisini çekecek bir anlatım stili kullanabilirsiniz. Her başlık hakkında kısa bir özet sunarak, okuyucunun ilgili teknik hakkında daha fazla bilgi edinmesini sağlayabilirsiniz.
+
+Belirtilen tekniklerin ne işe yaradığı ve neden bu dosyada yer aldıkları hakkında kısa bir tanıtım.\
+Özelleşmiş Bilgi: Her bir tekniğin veri seti üzerinde nasıl bir etki sağladığını açıklayan kısa tanımlar (filtreleme, çoğaltma giderme, tamamlama vb.).\
+R Markdown Önerisi: Her tekniği kısa bir açıklamayla tanıtan bir liste oluşturun. Bu listeye tıklanabilir bağlantılar ekleyerek, okuyucunun ilgili bölüme kolayca erişmesini sağlayabilirsiniz.
+
+### 3. Çalışmanın Kapsamı ve Hedefi
+
+Amaç: Bu çalışma dosyasının okuyucuya sağlayacağı faydaları açıklayın.\
+Özelleşmiş Bilgi: Dosyanın veri temizleme sürecindeki adımları öğrenmek isteyenler için bir rehber niteliğinde olduğu, özellikle R'de veri temizleme tekniklerine yönelik örnekler içerdiği belirtilebilir.\
+R Markdown Önerisi: Çalışmanın hangi seviyedeki kullanıcıya yönelik olduğunu vurgulayın (örneğin, başlangıç seviyesinde veri analistleri). Bu bölüme hedef kitlenizi belirtmek için ayrı bir paragraf ekleyebilirsiniz.
+
+### 4. Veri Temizliğinde Karşılaşılan Yaygın Sorunlar
+
+Amaç: Veri temizliği sırasında ortaya çıkan yaygın sorunlara dikkat çekmek.\
+Özelleşmiş Bilgi: Eksik veriler, hatalı veri girişleri, mükerrer kayıtlar ve aykırı değerler gibi sorunları tanımlayın.\
+R Markdown Önerisi: Bu bölümde her bir soruna kısa açıklamalarla yer verin. Sorunları görselleştirmek adına, basit bir örnek veri seti oluşturabilir ve sorunları örnek üzerinden göstererek okuyucuya daha net bir anlayış sunabilirsiniz.
+
+### 5. Bu Dosyada Kullanılan Araçlar ve R Paketleri
+
+Amaç: Çalışmada hangi R paketlerinin kullanılacağını tanıtmak ve kısa açıklamalarını yapmak.\
+Özelleşmiş Bilgi: `dplyr`, `mice`, `skimr`, `assertive` gibi paketlerin kullanımı hakkında kısa bilgiler.\
+R Markdown Önerisi: Her paketin yanında, ne işe yaradığını ve veri temizleme sürecindeki rolünü açıklayan bir liste ekleyin. Bu paketlerin kurulumunu sağlayan kodu (örneğin, `install.packages("dplyr")`) da ekleyebilirsiniz.
+
+### 6. Çalışma Dosyasının Yapısı Hakkında Bilgi
+
+Amaç: Dosyanın bölümlerini tanıtmak ve okuyucuya yol gösterici bir içerik tablosu sunmak.\
+Özelleşmiş Bilgi: Giriş, veri filtreleme, veri çoğaltma giderme vb. ana başlıkların kısa açıklamalarını yaparak, dosyanın genel yapısı hakkında bilgi verin.\
+R Markdown Önerisi: İçindekiler tablosu (`toc`) ekleyerek her başlığa tıklanabilir bağlantılar sunabilirsiniz.
+
+### 7. İlerleyen Bölümlere Kısa Bir Giriş
+
+Amaç: Çalışmada ilerleyen başlıklara dair kısa bir ön bilgi verin.\
+Özelleşmiş Bilgi: Her bir veri temizleme tekniğinin ne tür problemleri çözmek için kullanıldığını kısaca tanımlayın.\
+R Markdown Önerisi: Kısa tanıtımlar ile birlikte, okuyucunun ilgisini çekecek bir anlatım stili kullanabilirsiniz. Her başlık hakkında kısa bir özet sunarak, okuyucunun ilgili teknik hakkında daha fazla bilgi edinmesini sağlayabilirsiniz.
+
+## Veri Filtreleme
+
+Tanım ve amacı.\
+R'de veri filtreleme için fonksiyonlar (örneğin, `dplyr::filter()`).\
+Örnek: Bir veri setinden gereksiz verilerin kaldırılması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+library(dplyr)
+filtered_data <- data %>% filter(column_name == "some_value")
+```
+
+## Veri Çoğaltma Giderme (Data Deduplication)
+
+Tanım ve önemi.\
+R'de yinelenen verileri belirleme teknikleri (örneğin, `duplicated()`, `dplyr` paketinde `distinct()`).\
+Örnek: Bir veri setinde mükerrer kayıtların kaldırılması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+unique_data <- data %>% distinct()
+```
+
+## Veri Tamamlama (Data Imputation)
+
+Tanım ve eksik verileri ele alma yöntemleri.\
+R'de tamamlama için fonksiyonlar (örneğin, `na.omit()`, çoklu tamamlama için `mice` paketi).\
+Örnek: Bir veri setindeki eksik değerlerin tamamlanması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+library(mice)
+imputed_data <- mice(data, m=5, maxit=50, meth='pmm', seed=500)
+```
+
+## Veri Standardizasyonu
+
+Veri standardizasyonunun açıklaması.\
+Değişkenlerin standart hale getirilmesi için teknikler (örneğin, `scale()` fonksiyonu).\
+Örnek: Karşılaştırma için verilerin ortak bir formata dönüştürülmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+standardized_data <- scale(data$variable_name)
+```
+
+## Veri Dönüştürme (Data Transformation)
+
+Veri dönüştürmenin açıklaması ve faydaları.\
+R'de veri dönüştürme yöntemleri (örneğin, `mutate()` fonksiyonu).\
+Örnek: Analiz için yeni değişkenlerin oluşturulması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+transformed_data <- data %>% mutate(new_column = old_column * 2)
+```
+
+## Aykırı Değer Tespiti (Outlier Detection)
+
+Tanım ve önemi.\
+R'de aykırı değerleri belirleme teknikleri (örneğin, `boxplot()`, `IQR()`).\
+Örnek: Bir veri setinde aykırı değerlerin tespit edilmesi ve işlenmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+boxplot(data$variable_name)
+```
+
+## Veri Doğrulama (Data Validation)
+
+Veri doğrulamanın amacı.\
+R'de veri tutarlılığını kontrol etme yöntemleri (örneğin, `assertive` paketi ile doğrulamalar).\
+Örnek: Verilerin doğruluğunu sağlamak için veri girişlerinin doğrulanması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+library(assertive)
+assert_all_are_numeric(data$variable_name)
+```
+
+## Veri Kodlama (Data Encoding)
+
+Veri kodlamanın açıklaması ve gerekliliği.\
+R'de kodlama teknikleri (örneğin, kategorik değişkenler için `factor()`).\
+Örnek: Kategorik verilerin sayısal değerlere dönüştürülmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+data$category <- as.factor(data$category)
+```
+
+## Veri Birleştirme (Data Aggregation)
+
+Tanım ve veri birleştirmenin kullanıldığı durumlar.\
+R'de veri birleştirme teknikleri (örneğin, `group_by()` ve `summarize()` fonksiyonları).\
+Örnek: Verileri kategoriye göre gruplayarak özet istatistiklerin elde edilmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+aggregated_data <- data %>% group_by(category) %>% summarize(mean_value = mean(value))
+```
+
+## Veri Örnekleme (Data Sampling)
+
+Analiz için örnekleme önemi.\
+R'de veri örnekleme yöntemleri (örneğin, `sample()`, `sample_n()` fonksiyonu).\
+Örnek: Büyük bir veri setinden temsilci bir alt küme çekilmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+sampled_data <- data %>% sample_n(100)
+```
+
+## Veri Temizleme (Data Cleansing)
+
+Veri temizleme işleminin kapsamlı bir süreç olarak genel görünümü.\
+Veriyi temizlemek için birden fazla tekniğin birlikte kullanılması.\
+Örnek: R'de filtreleme, yinelenenleri giderme ve tamamlama işlemlerinin bir arada kullanılması.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+cleaned_data <- data %>% filter(!is.na(value)) %>% distinct()
+```
+
+## Veri Profilleme (Data Profiling)
+
+Veri profillemenin amacı ve veri setinin yapısını anlamak için yapılan analizler.\
+R'de veri profilleme araçları (örneğin, `summary()`, `str()`, `skimr` paketi).\
+Örnek: Veri temizlemeden önce veri özelliklerinin analiz edilmesi.
+
+```{r}
+#| echo: true
+#| eval: false
+#| message: false
+#| warning: false
+library(skimr)
+skim(data)
+```
+
+## Sonuç
+
+Veri temizleme tekniklerinin analizin başarısına olan etkisi büyüktür. Bu dosyada her teknik için örnekler verilmiştir ve bu tekniklerin kullanımıyla veri kalitesi artırılabilir.
