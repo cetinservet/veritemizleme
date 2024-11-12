@@ -32,10 +32,12 @@ format:
     documentclass: scrreprt
     toc-title: İçindekiler
     cover-image: cover.png
+    mainfont: "Times New Roman"
   docx:
     toc: true
     toc-title: İçindekiler
     number-sections: true
+    mainfont: "Times New Roman"
 
 editor: visual
 
